@@ -38,11 +38,7 @@ function matrix(n) {
 
     //initialize the array
     for (let i = 0; i < n; i++) {
-        let temp = []
-        for (let j = 0; j < n; j++) {
-            temp.push(0)
-        }
-        newArray.push(temp)
+        newArray.push([])
     }
 
     //traverse the array setting the appropriate location to count
